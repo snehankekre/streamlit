@@ -98,6 +98,7 @@ class MapMixin:
         ----------
         data : pandas.DataFrame, pandas.Styler, pyarrow.Table, numpy.ndarray, pyspark.sql.DataFrame, snowflake.snowpark.dataframe.DataFrame, snowflake.snowpark.table.Table, Iterable, dict, or None
             The data to be plotted. Must have two columns called:
+            
             - latitude called 'lat', 'latitude', 'LAT', 'LATITUDE'
             - longitude called 'lon', 'longitude', 'LON', 'LONGITUDE'.
 
